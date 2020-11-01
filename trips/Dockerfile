@@ -13,4 +13,5 @@ COPY trips.py ./
 
 RUN chmod +x ./run.sh
 
-CMD ["./run.sh"]
+#CMD ["./run.sh"]
+CMD ["/bin/sh", "/app/run.sh"]
